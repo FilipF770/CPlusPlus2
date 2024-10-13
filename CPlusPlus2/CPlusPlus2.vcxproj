@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clsTaskManager.cpp" />
     <ClCompile Include="CPlusPlus2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsTaskManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
