@@ -4,12 +4,41 @@
 #include <Windows.h>
 #include "clsTaskManager.h"
 
-clsTaskManager* objTManager;
+clsTaskManager * objTManager;
+
+void Task1(void)
+{
+  printf("Hey ");
+}
+
+void Task2(void)
+{
+  printf("Charlie! ");
+}
+
+// Smyèka taskeru
+void Loop(void)
+{
+  printf("Blbost");
+}
 
 int main()
 {
   objTManager = new clsTaskManager();
+
+  objTManager->AddTask(Task1);
+  objTManager->AddTask(Task2);
+
+  objTManager->Run(Loop);
+
+  delete(objTManager);
 }
+
+
+/*Zadání na pointery na funkce*/
+// Napsat kód tak, aby fungovala smyèka MAIN
+// Doplnit AddTask - pøidat Task do seznamu
+// V RUN volat tasky ze seznamu AddTask
 
 /*Zadání pro dynamickou alokaci pamìti v C*/
 // Dej mi 200 bytù v pamìti a první adresu vypsat do pointeru
