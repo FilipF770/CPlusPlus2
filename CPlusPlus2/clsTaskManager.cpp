@@ -26,7 +26,6 @@ int clsTaskManager::AddTask(void (*p_Task)(void))
 			
 		}
 		return true;
-	
 }
 
 //--------------------------------------------

@@ -13,13 +13,13 @@ void Task1(void)
 
 void Task2(void)
 {
-  printf("Charlie! ");
+  printf("Charlie. ");
 }
 
 // Smyèka taskeru
 void Loop(void)
 {
-  printf("Blbost");
+  printf("Leave");
 }
 
 int main()
@@ -63,6 +63,7 @@ int main()
 // DEKLARACE - jméno metody a její parametry
 // DEFINICE - Co daná metoda dìlá
 
+/*Pøíklad na práci s pointery*/
 /*
  int a, b;
  char* pa, *pb;
