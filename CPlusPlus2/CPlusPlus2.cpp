@@ -19,7 +19,7 @@ void Task2(void)
 // Smyèka taskeru
 void Loop(void)
 {
-  printf("Leave");
+  printf("Leave! ");
 }
 
 int main()
@@ -28,6 +28,7 @@ int main()
 
   objTManager->AddTask(Task1);
   objTManager->AddTask(Task2);
+  objTManager->AddTask(Loop);
 
   objTManager->Run(Loop);
 
