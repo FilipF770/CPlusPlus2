@@ -36,10 +36,9 @@ int main()
 }
 
 
-/*Zadání na pointery na funkce*/
-// Napsat kód tak, aby fungovala smyèka MAIN
-// Doplnit AddTask - pøidat Task do seznamu
-// V RUN volat tasky ze seznamu AddTask
+/*Zadání úkolù*/
+// Finále bude napsat tøídu, která otevøe, pøeète, zapíše a zavøe soubor
+// 
 
 /*Zadání pro dynamickou alokaci pamìti v C*/
 // Dej mi 200 bytù v pamìti a první adresu vypsat do pointeru
